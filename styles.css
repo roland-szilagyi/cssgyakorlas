@@ -5,14 +5,25 @@
 
 header {
   outline: 1px solid red;
+  background-color: lightpink;
   text-align: center;
+  position: sticky;
+  top: 0;
+  height: 10vh;
 }
 
 main {
   outline: 1px solid blue;
+  background-color: lightblue;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 90vh;
+}
+
+section {
+  outline: 1px solid green;
+  background-color: lightcoral;
   height: 100vh;
 }
 
